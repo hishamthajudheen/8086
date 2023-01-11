@@ -50,7 +50,7 @@ code segment
             int 21h
 
         read:
-            mov ah, 1h
+            mov ah, 01h
             int 21h
             ret
 
